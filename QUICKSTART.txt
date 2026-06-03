@@ -1,0 +1,83 @@
+# 🚀 QuickStart – Run in 30 Seconds
+
+## Installation
+```bash
+cd /Users/yash/Downloads/quiz_app
+python -m pip install -r requirements.txt
+```
+
+## Run
+```bash
+python app.py
+```
+
+Then open **http://localhost:5000** in your browser.
+
+---
+
+## ✨ Features
+
+| Feature | How to Use |
+|---------|-----------|
+| **Text Quiz** | Click "📝 Paste Text" → Paste paragraph → Click "Generate Quiz ⚡" |
+| **Image Quiz** | Click "📸 Upload Image" → Choose JPG/PNG/GIF → Click "Generate Quiz ⚡" |
+
+---
+
+## 📖 Full Docs
+
+- **Complete Setup:** See `SETUP.md`
+- **Full Documentation:** See `README.md`
+- **Implementation Details:** See `IMPLEMENTATION.md`
+- **Summary:** See `COMPLETION_SUMMARY.md`
+
+---
+
+## 🆘 Troubleshooting
+
+**Port in use?**
+```bash
+PORT=5001 python app.py
+```
+
+**Missing API key?**
+Edit `.env` and add your Gemini API key:
+```bash
+GEMINI_API_KEY=your_key_here
+```
+
+**Missing dependencies?**
+```bash
+python -m pip install -r requirements.txt
+```
+
+---
+
+## 📊 Project Structure
+
+```
+quiz_app/
+├── .env                    ← Your API key (configured)
+├── app.py                  ← Flask + OCR + Gemini
+├── requirements.txt        ← Dependencies
+├── templates/index.html    ← Web UI (tabs, preview)
+├── static/
+│   ├── js/app.js          ← Frontend logic
+│   └── css/style.css      ← Styling
+└── [docs files]           ← README, SETUP, etc.
+```
+
+---
+
+## ✅ What Works
+
+- ✅ Text input → Quiz generation
+- ✅ Image upload → OCR → Quiz generation
+- ✅ Quiz answering with feedback
+- ✅ Score tracking
+- ✅ Environment variable config
+- ✅ Error handling & diagnostics
+
+---
+
+**Ready to go!** 🎉
